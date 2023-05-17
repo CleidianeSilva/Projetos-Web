@@ -1,0 +1,37 @@
+#cabecalho{
+    height: 100px;
+    background: lightgrey;
+    
+
+}
+#navegation{
+    height: 50px;
+    background:lightgrey;
+    margin-top: 10px;
+}
+#banner{
+    height: 200px;
+    background: lightgrey;
+    margin-top: 10px;
+}
+#sidebar{
+    height: 500px;
+    width: 250px;
+    background:lightgrey ;
+    margin-top: 10px;
+    float: left;
+    border-right: 10px solid rgb(255, 255, 255);
+    margin-right: 10px;
+    
+}
+#principal{
+    height: 500px;
+    background: lightgrey ;
+    margin-top: 10px;
+    
+}
+#rodape{
+    height: 50px;
+    background: lightgrey;
+    margin-top: 10px;
+}

@@ -1,0 +1,42 @@
+#logo{
+  height: 100px;
+  background: lightgray;
+
+}
+#header {
+  height: 200px;
+  background: lightgray;
+  margin-top: 10px;
+
+}
+#menu {
+  height: 150px;
+  background: lightgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#box1 {
+  background: lightgray;
+  height: 650px;
+  width: 440px;
+  display: inline-block ;
+}
+#box2 {
+  background: lightgray;
+  height: 650px;
+  width: 440px;
+  display: inline-block;
+
+}
+#box3 {
+  background: lightgray;
+  height: 650px;
+  width: 440px;
+  display: inline-block ;
+}
+#rodape{
+  margin-top: 10px;
+  height: 100px;
+  background: lightgray;
+  clear: both;
+}
