@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Consumo de Combustível</title>
+</head>
+<body>
+    <h1>Calculadora de Consumo de Combustível</h1>
+
+    <label for="percurso">Percurso em quilômetros:</label>
+    <input type="number" id="percurso">
+  
+    <br><br>
+  
+    <label for="tipoCarro">Tipo de carro:</label>
+    <select id="tipoCarro">
+      <option value="8">Carro A</option>
+      <option value="9">Carro B</option>
+      <option value="12">Carro C</option>
+    </select>
+  
+    <br><br>
+  
+    <label>
+      <input type="checkbox" id="arCondicionado"> Utilizar ar-condicionado
+    </label>
+  
+    <br><br>
+  
+    <button onclick="calcularConsumo()">Calcular</button>
+  
+    <br><br>
+  
+    <p id="resultado"></p>
+    <script src="script.js"></script>
+</body>
+</html>
